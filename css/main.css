@@ -85,7 +85,7 @@ a, a:visited {
 }
 
 a:hover, a:focus {
-  color: #000000;
+  color: #F44336;
 }
 
 
@@ -471,7 +471,7 @@ td:last-child {
 }
 
 .pace .pace-progress {
-  background: #f9a828;
+  background: #f44336;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -491,7 +491,7 @@ td:last-child {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #0F1215;
+  background: #212121;
   z-index: 800;
   height: 100%;
   width: 100%;
@@ -510,7 +510,7 @@ td:last-child {
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
-  background-color: #f9a828;
+  background-color: #f44336;
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -561,7 +561,7 @@ select {
   border: 0;
   outline: none;
   vertical-align: middle;
-  color: #ffffff;
+  color: #444444;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
@@ -632,7 +632,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  color: #ffffff;
+  color: #F44336;
 }
 
 label, legend {
@@ -811,8 +811,8 @@ button.stroke.large, .button.stroke.large {
 }
 
 button.stroke:hover, .button.stroke:hover {
-  border: 3px solid #f9a828;
-  color: #f9a828;
+  border: 3px solid #F44336;
+  color: #F44336;
 }
 
 button::-moz-focus-inner,
@@ -1260,10 +1260,10 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 80px;
-  height: 40px;
-  background: url("../images/drp-logo.png") no-repeat center;
-  background-size: 80px 40px;
+  width: 57px;
+  height: 27px;
+  background: url("../images/logo.png") no-repeat center;
+  background-size: 57px 27px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1297,10 +1297,8 @@ header .header-logo a {
   transition: all 0.3s ease-in-out;
 }
 #header-menu-trigger.opaque {
-  background-color: #000000;
 }
 #header-menu-trigger.opaque .header-menu-text {
-  background-color: #000000;
 }
 #header-menu-trigger:hover, #header-menu-trigger:focus {
   color: #FFFFFF;
@@ -1323,7 +1321,7 @@ header .header-logo a {
   display: block;
   height: 3px;
   width: 24px;
-  background-color: #FFFFFF;
+  background-color: #f44336;
   position: absolute;
   top: 50%;
   right: 9px;
@@ -1349,7 +1347,7 @@ header .header-logo a {
  * off-canvas menu - (_layout.scss) 
  * ------------------------------------------------------------------- */
 #menu-nav-wrap {
-  background: #0C0C0C;
+  background: #212121;
   color: rgba(255, 255, 255, 0.25);
   font-size: 1.5rem;
   line-height: 1.6;
@@ -1380,7 +1378,7 @@ header .header-logo a {
   color: white;
 }
 #menu-nav-wrap h3 {
-  color: white;
+  color: #f44336;
   font-family: "montserrat-regular", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
@@ -1402,12 +1400,12 @@ header .header-logo a {
   border-top: 1px dotted rgba(255, 255, 255, 0.03);
 }
 #menu-nav-wrap .nav-list li a {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.5);
   display: block;
 }
 #menu-nav-wrap .nav-list li a:hover, 
 #menu-nav-wrap .nav-list li a:focus {
-  color: white;
+  color: #ffffff;
 }
 #menu-nav-wrap .header-social-list {
   list-style: none;
@@ -1421,11 +1419,11 @@ header .header-logo a {
   display: inline-block;
 }
 #menu-nav-wrap .header-social-list li a {
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.5);
 }
 #menu-nav-wrap .header-social-list li a:hover, 
 #menu-nav-wrap .header-social-list li a:focus {
-  color: white;
+  color: #ffffff;
 }
 #menu-nav-wrap .header-social-list li:last-child {
   margin: 0;
@@ -1565,10 +1563,9 @@ header .header-logo a {
   margin: 4.8rem 0 0 0;
 }
 .home-content-tablecell .more .button {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #ffffff;
+  color: #ffffff;
 }
-
 /* home social-list */
 .home-social-list {
   position: absolute;
@@ -1600,7 +1597,7 @@ header .header-logo a {
 .home-social-list li a:hover, 
 .home-social-list li a:focus, 
 .home-social-list li a:active {
-  color: #151515;
+  color: #f44336;
 }
 
 /* scroll down */
@@ -1620,7 +1617,7 @@ header .header-logo a {
   padding-left: 9px;
 }
 .scrolldown a:hover, .scrolldown a:focus, .scrolldown a:active {
-  color: #151515 !important;
+  color: #f44336 !important;
 }
 
 html[data-useragent*='MSIE 10.0'] .scrolldown,
@@ -1778,7 +1775,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  background-color: #212121;
   min-height: 696px;
   text-align: center;
 }
@@ -1786,13 +1783,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   max-width: 850px;
 }
 #about span {
-  color: #07617d;
+  color: #f44336;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #f44336;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -1802,14 +1799,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   content: "";
   width: 3px;
   height: 9.6rem;
-  background-color: rgba(149, 149, 149, 0.7);
+  background-color: #f44336;
   margin: 0 auto 2.4rem;
 }
 #about .lead {
   font-family: "librebaskerville-bold", serif;
   font-size: 4rem;
   line-height: 1.8;
-  color: #2e383f;
+  color: #ffffff;
   margin-top: 6rem;
 }
 
@@ -1886,7 +1883,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(../images/headphones.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -1903,9 +1900,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.7);
+  background-color: rgba(5, 5, 5, 0.75);
 }
-#services .gradient-overlay {
+/*#services .gradient-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -1915,7 +1912,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );*/
 }
 #services .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
@@ -1947,7 +1944,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: #f9a828;
+  color: #F44336;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
@@ -2011,7 +2008,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #portfolio .intro-wrap {
   padding: 15rem 0 21rem;
-  background: #111111;
+  background: #F44336;
 }
 #portfolio .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
@@ -2194,7 +2191,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 12px 20% 15px;
 }
 .lg-sub-html a, .lg-sub-html a:visited {
-  color: #f9a828;
+  color: #F44336;
 }
 .lg-sub-html a:hover, .lg-sub-html a:focus {
   color: #FFFFFF;
@@ -2226,7 +2223,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #f9a828;
+  border-color: #F44336;
 }
 
 .lg-progress-bar .lg-progress {
@@ -2583,8 +2580,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: .05rem;
   padding: .6rem 2rem .6rem 2rem;
   margin: 0;
-  color: #000000;
-  background: #f9a828;
+  color: #ffffff;
+  background: #F44336;
   border-radius: 3px;
 }
 #contact form .form-field label::after {
@@ -2594,7 +2591,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-top: -6px;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-bottom: 5px solid #f9a828;
+  border-bottom: 5px solid #F44336;
   content: "";
 }
 #contact form ::-webkit-input-placeholder {
@@ -2647,12 +2644,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 6rem;
   padding: 0 3rem;
   width: 100%;
-  background: #f9a828;
-  color: #000000;
+  background: #F44336;
+  color: #ffffff;
   margin-top: .6rem;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-  background: #f89e0f;
+  background: #FFFFFF;
+color: #F44336;
 }
 
 #message-warning, #message-success {
@@ -2668,7 +2666,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #message-success {
-  color: #f9a828;
+  color: #F44336;
 }
 
 #message-warning i,
@@ -2810,7 +2808,7 @@ footer a, footer a:visited {
   color: #FFFFFF;
 }
 footer a:hover, footer a:focus {
-  color: #f9a828;
+  color: #F44336;
 }
 footer .row {
   max-width: 1024px;
@@ -2864,11 +2862,11 @@ footer h4.h05::after {
   padding: 1.5rem 8rem 1.5rem 2rem;
   margin-bottom: 1.5rem;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(floralwhite);
 }
 .footer-main #mc-form button {
-  background-color: #f9a828;
-  color: #000000;
+  background-color: #F44336;
+  color: #ffffff;
   width: 6rem;
   height: 6rem;
   line-height: 6rem;
@@ -2879,7 +2877,16 @@ footer h4.h05::after {
   top: 0;
 }
 .footer-main #mc-form button:hover {
-  background-color: #f89e0f;
+    width: 6rem;
+  height: 6rem;
+  line-height: 6rem;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ffffff;
+    color: #F44336;
 }
 .footer-main #mc-form button i {
   font-size: 2.6rem;
@@ -2889,7 +2896,7 @@ footer h4.h05::after {
   left: .2rem;
 }
 .footer-main #mc-form label {
-  color: #f9a828;
+  color: #F44336;
   font-family: "montserrat-regular", sans-serif;
 }
 
@@ -2948,7 +2955,7 @@ footer h4.h05::after {
   color: #888;
 }
 #go-top a:hover, #go-top a:focus {
-  background: #000000;
+  background: #f44336;
   color: #FFFFFF;
 }
 
