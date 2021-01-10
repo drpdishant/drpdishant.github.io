@@ -17,6 +17,7 @@ spec:
       containers:
       - name: drpdishant
         image: __IMAGE_NAME__
+        
 ---
 apiVersion: v1
 kind: Service
@@ -29,11 +30,12 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
+      
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: name-virtual-host-ingress-no-third-host
+  name: drpdishant-ingress
 spec:
   rules:
   - host: drpdishant.github.io
